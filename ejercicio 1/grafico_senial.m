@@ -13,7 +13,8 @@ legend('senial.m'); % Agrega una leyenda
 print -f1 -dpng img/senial % Importar figura
 
 % Calcular la TFTD
-[s,X] = TFTD(n,x);
+s = [-0.5:0.001:0.5];
+X = TFTD(n,x,s);
 
 % Graficar el módulo de la TFTD
 subplot(2, 1, 1);
