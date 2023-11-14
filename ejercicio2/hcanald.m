@@ -1,17 +1,17 @@
 function [n, h] = hcanald(numal);
 % AnSyS
-% AÒo 2023
-% Pr·ctica con utilitario 1 - Ejercicio 2
-% 
+% A?o 2023
+% Pr?ctica con utilitario 1 - Ejercicio 2
+%
 % [n, h] = hcanald(numal)
-% Esta funci√≥n retorna la respuesta impulsional del canal discreto
+% Esta funci?n retorna la respuesta impulsional del canal discreto
 % del Ejercicio 2 y los instantes a los que corresponde.
-% 
+%
 % Variables de entrada:
-% numAl: Introduzca en este campo su n√∫mero de alumno (sin barra).
-% En caso de realizar el trabajo de a dos ingrese uno de los n√∫meros.
+% numAl: Introduzca en este campo su numero de alumno (sin barra).
+% En caso de realizar el trabajo de a dos ingrese uno de los numeros.
 % de alumno.
-% 
+%
 % Variables de salida:
 % n: Instantes n a los que corresponde la respuesta impulsional.
 % h: Respuesta impulsional del canal.
